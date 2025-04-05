@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0f0f0f;
+    color: #fff;
+    scroll-behavior: smooth;
+  }
+  
+  header {
+    text-align: center;
+    background: linear-gradient(90deg, #ff0055, #ff6600);
+    padding: 80px 20px;
+    color: #fff;
+  }
+  
+  header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+  }
+  
+  header p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  
+  header button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  header button:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  section#features {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  section#features h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #ff0055;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+  }
+  
+  .feature-card {
+    background-color: #1a1a1a;
+    padding: 25px;
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #333;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(255, 0, 85, 0.2);
+  }
+  
+  .feature-card h3 {
+    color: #ff3366;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    font-size: 0.95rem;
+    color: #ccc;
+    line-height: 1.5;
+  }
+  
+  #cta {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #141414;
+  }
+  
+  #cta h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff6600;
+  }
+  
+  #cta button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    background: #ff0055;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  #cta button:hover {
+    background-color: #ff3366;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.85rem;
+    background-color: #111;
+    color: #aaa;
+  }
+  
